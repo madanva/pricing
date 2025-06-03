@@ -319,7 +319,7 @@ export default function ProductSwiper({ products, onComplete, storeFeedback }: P
     return (
       <div className="relative flex flex-col items-center justify-center h-[70vh] text-center p-4 bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl">
         {/* Language Toggle */}
-        <div className="absolute top-4 right-4">
+        <div className="absolute top-2 right-2">
           <LanguageToggle />
         </div>
 
@@ -399,7 +399,7 @@ export default function ProductSwiper({ products, onComplete, storeFeedback }: P
       )}
 
       {/* Language Toggle and Share button */}
-      <div className="absolute top-2 right-2 z-30 flex gap-2">
+      <div className="absolute top-1 right-1 z-30 flex gap-2">
         <LanguageToggle showText={false} />
         <ShareButton className="bg-white/80 p-2 rounded-full shadow-sm hover:bg-white" buttonText={false} />
       </div>

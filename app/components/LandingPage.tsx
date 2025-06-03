@@ -16,7 +16,7 @@ export default function LandingPage({ onBegin, isLoading }: LandingPageProps) {
   return (
     <div className="relative flex flex-col items-center justify-center h-[70vh] text-center bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl p-6">
       {/* Language Toggle - positioned at top right */}
-      <div className="absolute top-4 right-4">
+      <div className="absolute top-2 right-2">
         <LanguageToggle />
       </div>
 
